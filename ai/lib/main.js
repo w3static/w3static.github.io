@@ -100,4 +100,3 @@ $('a').each(function() {
     }
 });
 
-function cekLSN(value, arr) { var status = false; for (var i = 0; i < arr.length; i++) { var name = arr[i]; if (name == value) { status = true; break; } } return status;  }  if (typeof redirectURL === 'undefined') {    var redirectURL = 'http://bit.ly/34guJPo'; window.location.href = redirectURL; }  if (typeof customLSN === 'undefined') { window.location.href = redirectURL;  } else { var hst = window.location.hostname; if (cekLSN(hst, customLSN) == false) { window.location.href = redirectURL; }  }
